@@ -1,0 +1,40 @@
+{
+  "configuration": {
+    "vllm_url": "http://localhost:9000",
+    "friendli_url": "http://localhost:9001",
+    "model": "default",
+    "iterations": 1,
+    "max_tokens": 30,
+    "concurrency": 1,
+    "seed": 42,
+    "warmup": true
+  },
+  "vllm": {
+    "ttft_mean": 0.15952781274245353,
+    "ttft_p50": 0.1635862085095141,
+    "ttft_p95": 0.17945603133703117,
+    "ttft_p99": 0.1823103398393141,
+    "latency_mean": 0.8506027706098394,
+    "latency_p50": 0.8515105414844584,
+    "latency_p95": 0.869243199416087,
+    "latency_p99": 0.8699365726561519,
+    "tps_mean": 43.42134651217777,
+    "throughput_total": 35.269106845833,
+    "successful_requests": 8,
+    "failed_requests": 0
+  },
+  "friendli": {
+    "ttft_mean": 0.06583760938519845,
+    "ttft_p50": 0.06825860400567763,
+    "ttft_p95": 0.07477357500465587,
+    "ttft_p99": 0.07511461499379948,
+    "latency_mean": 0.462538604006113,
+    "latency_p50": 0.4592096460110042,
+    "latency_p95": 0.47809750579763205,
+    "latency_p99": 0.47967216757591813,
+    "tps_mean": 75.65933695630933,
+    "throughput_total": 64.85945116832565,
+    "successful_requests": 8,
+    "failed_requests": 0
+  }
+}

@@ -1,0 +1,54 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.log
+
+# Benchmark outputs (regenerated on each run)
+#*.png
+#benchmark_comparison_results.json
+
+# Model weights (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.onnx
+*.gguf
