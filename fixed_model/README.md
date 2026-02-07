@@ -9,6 +9,9 @@ base_model:
 
 This repository contains **corrected configuration files** for Meta-Llama-3.1-8B, fixing issues from the original [yunmorning/broken-model](https://huggingface.co/yunmorning/broken-model).
 
+URL for the fixed model: [devsatish/fixed_model](https://huggingface.co/devsatish/fixed_model)
+
+
 ## Problem Identified
 
 The original model's `config.json` contained **Qwen3 model settings** while the README claimed it was based on **Meta-Llama-3.1-8B**. This mismatch causes inference failures because:
